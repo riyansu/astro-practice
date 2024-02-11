@@ -5,8 +5,9 @@ const RepeatingComponent = () => {
     setInterval(()=>{
         setVal(c => c+1)
     },100)
-    return (
+    return (<>
         <div class="bg-[lightgreen]" style={{"text-align":"center","font-size":`${val()*2+10}px`}}>{val()}</div>
-    );
+		<a href="./test">Page</a>
+    </>);
 };
 export default RepeatingComponent
