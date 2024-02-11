@@ -6,7 +6,7 @@ const RepeatingComponent = () => {
         setVal(c => c+1)
     },100)
     return (
-        <div style={{"text-align":"center","font-size":`${val()*2+10}px`}}>{val()}</div>
+        <div class="bg-[lightgreen]" style={{"text-align":"center","font-size":`${val()*2+10}px`}}>{val()}</div>
     );
 };
 export default RepeatingComponent
