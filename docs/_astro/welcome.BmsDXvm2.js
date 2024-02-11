@@ -1,1 +1,0 @@
-import{c as a,g as s,i as n,a as l,t as o}from"./web.ev-7bzsG.js";var p=o("<div>");const c=()=>{const[t,r]=a(0);return setInterval(()=>{r(e=>e+1)},100),(()=>{var e=s(p);return e.style.setProperty("text-align","center"),n(e,t),l(()=>`${t()*2+10}px`!=null?e.style.setProperty("font-size",`${t()*2+10}px`):e.style.removeProperty("font-size")),e})()};export{c as default};
